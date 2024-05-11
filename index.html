@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FindMine</title>
+        <script src="./js/FindMine_obfuscated.js"></script>
+    </head>
+    <body>
+        <div id="findmine">
+            <button onclick="HTML.start();">Start FindMine Game</button>
+        </div>
+        <div id="input">
+            <form>
+                x : <input type="text" id="x"><br>
+                y : <input type="text" id="y"><br>
+                <input type="reset" value="Find Mine" onclick="HTML.find();">
+                <input type="reset" value="Guess Mine" onclick="HTML.guess();">
+                <input type="reset" value="Reset Game" onclick="HTML.reset();">
+            </form>
+        </div>
+    </body>
+</html>
